@@ -1,5 +1,5 @@
-# X11 Forwarding in VS Code and Termius
-Follow the steps given below to enable the X11 forwarding in VS Code or Termius terminals for SSH connections.
+# X11 Forwarding in VS code and Termius
+Follow the steps given below to enable the X11 forwarding in VS Code /Termius terminals for SSH connections.
 
 **STEP 1:**
 Make sure you have the following tools installed beforehand
@@ -28,9 +28,9 @@ To set the DISPLAY environment variable in windows
         SUCCESS: Specified value was saved.
     ```
 **STEP 3:**
-Login to you remote SSH server from VS code
+Login to you remote SSH server
 
-- Edit your config file in the .ssh folder should look like this
+- In VS code - Edit your config file in the .ssh folder similar to the example given below
     ```config
         Host <nick_name>
         HostName <server_address>
@@ -39,14 +39,14 @@ Login to you remote SSH server from VS code
         ForwardX11 yes
         ForwardX11Trusted yes
     ```
-Edit your config files accordingly
+Edit the nick_name, server_address and your_user_id accordingly
 
-- If you are using termius, login to your remote SSH like one do from any other terminal from the powersehll terminal.
+- In termius, login to your remote SSH like any other terminal from the powersehll terminal.
 
 **STEP 4:**
 Now, just open any GUI or type any one of these `xeyes`, `xclock` and `xcalc`. You must see the display window (make sure Xming is running). 
 
-<small>*NOTE*: *If you login from declared hosts in termius the X11 forwarding will not work. To me the main reason to use the termius over other terminal is the interface and the options termius offers over other terminal (it's just the choice)* </small>
+<small>*NOTE*: *If you login from declared hosts in termius the X11 forwarding will not work. So, the reason to use termius over other terminals is the interface and the options termius offers over other terminal (it's just the choice)* </small>
 
 
 
