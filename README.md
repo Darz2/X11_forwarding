@@ -43,10 +43,10 @@ Edit your config files accordingly
 
 - If you are using termius, login to your remote SSH like one do from any other terminal from the powersehll terminal.
 
-<small>*NOTE*: *If you login from declared hosts in termius the X11 forwarding will not work. To me the main reason to use the termius over other terminal is the interface and the options termius offers over other terminal (it's just the choice)* </small>
-
 **STEP 4:**
-Now, just open any GUI or type any one of these `xeyes`, `xclock` and `xcalc`. You must see the display window ( make sure Xming is running). 
+Now, just open any GUI or type any one of these `xeyes`, `xclock` and `xcalc`. You must see the display window (make sure Xming is running). 
+
+<small>*NOTE*: *If you login from declared hosts in termius the X11 forwarding will not work. To me the main reason to use the termius over other terminal is the interface and the options termius offers over other terminal (it's just the choice)* </small>
 
 
 
